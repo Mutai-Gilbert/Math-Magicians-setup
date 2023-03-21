@@ -1,3 +1,112 @@
-body {
-  background-color: bisque;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Balsamiq Sans', sans-serif;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+body {
+  margin: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eee;
+  padding: 10px;
+}
+
+.math-title {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 10px;
+  border-right: 3px solid black;
+  padding-right: 5px;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+
+h2 {
+  color: #333;
+  font-size: 36px;
+  margin-top: 50px;
+}
+
+p {
+  color: #333;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.calculator {
+  margin-top: 20px;
+  height: 450px;
+}
+
+.calculator-heading {
+  float: left;
+}
+
+.my-calculator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 2px solid black;
+  float: right;
+  width: 70%;
+  height: 450px;
+}
+.quote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  page-break-before: always;
+  margin-top: 20px;
+}
+
+.dfnone {
+  display: none;
+}
+
